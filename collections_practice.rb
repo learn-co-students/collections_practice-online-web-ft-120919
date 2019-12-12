@@ -43,3 +43,13 @@ def sum_array(array)
   total
 
 end
+
+def add_s(array)
+  array.map {|string|
+    if string != array[1]
+      string << "s"
+    else
+      string
+    end
+  }
+end
