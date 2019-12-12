@@ -1,22 +1,22 @@
-def sort_array_asc(i)
-    i.sort
+def sort_array_asc(array)
+    array.sort
 end
   
-def sort_array_desc(i)
-    i.sort.reverse
+def sort_array_desc(array)
+    array.sort.reverse
 end
   
-def sort_array_char_count(i)
-    i.sort { |a, b| a.size <=> b.size }
+def sort_array_char_count(array)
+    array.sort { |a, b| a.size <=> b.size }
 end
   
-def swap_elements(i)
-    i[1], i[2] = i[2], i[1]
-    i
+def swap_elements(array)
+    array[1], array[2] = array[2], array[1]
+    array
 end
 
-def reverse_array(i)
-    i.reverse!
+def reverse_array(array)
+    array.reverse!
 end
   
 def kesha_maker(array)
