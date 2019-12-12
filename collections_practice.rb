@@ -26,3 +26,13 @@ def kesha_maker(array)
     }
     arr
 end
+
+def find_a(array)
+  new_array = []
+  array.each {|e|
+    if e[0] == "a"
+      new_array << e
+    end
+  }
+  new_array
+end
