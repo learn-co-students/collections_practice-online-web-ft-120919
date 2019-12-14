@@ -45,10 +45,10 @@ end
 
 def add_s(array)
     array.each { |word|
-    if word == index[1]
+    if word == array[1]
         word
+    else
+        word << "s"
     end
-    word << "s"
 }
 end
-# word[1].pop
