@@ -41,11 +41,14 @@ end
 def sum_array(array)
     array.sum
 end
+# binding.pry
 
 def add_s(array)
     array.each { |word|
-    # binding.pry
+    if word == index[1]
+        word
+    end
     word << "s"
-    # word[1].pop
-    }
+}
 end
+# word[1].pop
